@@ -1,6 +1,6 @@
 import subprocess
 
-# python ../gb_project/lesson1/main.py
+# python lesson1/main.py
 if __name__ == '__main__':
     print('PyCharm')
     result = subprocess.run("cat /etc/os-release", shell=True, stdout=subprocess.PIPE, encoding='utf-8')
