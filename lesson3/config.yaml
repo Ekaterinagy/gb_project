@@ -1,0 +1,8 @@
+folder_in: /home/anrei/home_tests_task3/tst
+folder_out: /home/anrei/home_tests_task3/out
+folder_ext: /home/anrei/home_tests_task3/folder1
+folder_ext2: /home/anrei/home_tests_task3/folder2
+file_stat_txt: stat.txt
+7z_type: tar
+count: 7
+bs: 1M
