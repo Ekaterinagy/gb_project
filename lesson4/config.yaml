@@ -1,0 +1,13 @@
+user_name: 'test_user'
+user_pass: '2222'
+user_address: '127.0.0.1'
+local_path: test_data/
+remote_path: /home/test_user/lesson4_tests/
+folder_in: /home/test_user/lesson4_tests/tst
+folder_out: /home/test_user/lesson4_tests/out
+folder_ext: /home/test_user/lesson4_tests/folder1
+folder_ext2: /home/test_user/lesson4_tests/folder2
+7z_type: tar
+count: 7
+bs: 1M
+file_stat_txt: stat.txt
