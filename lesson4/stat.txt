@@ -1,0 +1,281 @@
+Время: 2023-11-20 13:17:51, кол-во файлов из конфига: 7, размер файла из конфига 1M, лог журнала: -- Logs begin at Fri 2023-08-25 16:19:02 +04, end at Mon 2023-11-20 13:17:52 +04. --
+ноя 20 13:17:51 anrei-VirtualBox sshd[57028]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:51 anrei-VirtualBox systemd[1]: session-855.scope: Succeeded.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: Session 855 logged out. Waiting for processes to exit.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: Removed session 855.
+ноя 20 13:17:51 anrei-VirtualBox sshd[57088]: Accepted password for test_user from 127.0.0.1 port 60944 ssh2
+ноя 20 13:17:51 anrei-VirtualBox sshd[57088]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:51 anrei-VirtualBox systemd[1]: Started Session 856 of user test_user.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: New session 856 of user test_user.
+ноя 20 13:17:51 anrei-VirtualBox sshd[57088]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:51 anrei-VirtualBox systemd[1]: session-856.scope: Succeeded.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: Session 856 logged out. Waiting for processes to exit.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: Removed session 856.
+ноя 20 13:17:51 anrei-VirtualBox sshd[57148]: Accepted password for test_user from 127.0.0.1 port 60950 ssh2
+ноя 20 13:17:51 anrei-VirtualBox sshd[57148]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:51 anrei-VirtualBox systemd[1]: Started Session 857 of user test_user.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: New session 857 of user test_user.
+ноя 20 13:17:51 anrei-VirtualBox sshd[57207]: Accepted password for test_user from 127.0.0.1 port 60966 ssh2
+ноя 20 13:17:51 anrei-VirtualBox sshd[57207]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:51 anrei-VirtualBox systemd[1]: Started Session 858 of user test_user.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: New session 858 of user test_user.
+ноя 20 13:17:51 anrei-VirtualBox sshd[57148]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:51 anrei-VirtualBox systemd[1]: session-857.scope: Succeeded.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: Session 857 logged out. Waiting for processes to exit.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: Removed session 857.
+ноя 20 13:17:51 anrei-VirtualBox sshd[57267]: Accepted password for test_user from 127.0.0.1 port 60970 ssh2
+ноя 20 13:17:51 anrei-VirtualBox sshd[57267]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:51 anrei-VirtualBox systemd[1]: Started Session 859 of user test_user.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: New session 859 of user test_user.
+ноя 20 13:17:51 anrei-VirtualBox sshd[57207]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:51 anrei-VirtualBox systemd[1]: session-858.scope: Succeeded.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: Session 858 logged out. Waiting for processes to exit.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: Removed session 858.
+ноя 20 13:17:51 anrei-VirtualBox sshd[57267]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: Session 859 logged out. Waiting for processes to exit.
+ноя 20 13:17:51 anrei-VirtualBox systemd[1]: session-859.scope: Succeeded.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: Removed session 859.
+ноя 20 13:17:51 anrei-VirtualBox sshd[57328]: Accepted password for test_user from 127.0.0.1 port 60984 ssh2
+ноя 20 13:17:51 anrei-VirtualBox sshd[57328]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:51 anrei-VirtualBox systemd[1]: Started Session 860 of user test_user.
+ноя 20 13:17:51 anrei-VirtualBox systemd-logind[695]: New session 860 of user test_user.
+ноя 20 13:17:52 anrei-VirtualBox sudo[57387]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:17:51
+ноя 20 13:17:52 anrei-VirtualBox sudo[57387]: pam_unix(sudo:session): session opened for user root by (uid=0)
+[sudo] пароль для test_user: Время: 2023-11-20 13:17:52, кол-во файлов из конфига: 7, размер файла из конфига 1M, лог журнала: -- Logs begin at Fri 2023-08-25 16:19:02 +04, end at Mon 2023-11-20 13:17:53 +04. --
+ноя 20 13:17:52 anrei-VirtualBox sudo[57387]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:17:51
+ноя 20 13:17:52 anrei-VirtualBox sudo[57387]: pam_unix(sudo:session): session opened for user root by (uid=0)
+ноя 20 13:17:52 anrei-VirtualBox sudo[57387]: pam_unix(sudo:session): session closed for user root
+ноя 20 13:17:52 anrei-VirtualBox sshd[57328]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:52 anrei-VirtualBox systemd[1]: session-860.scope: Succeeded.
+ноя 20 13:17:52 anrei-VirtualBox systemd-logind[695]: Session 860 logged out. Waiting for processes to exit.
+ноя 20 13:17:52 anrei-VirtualBox systemd-logind[695]: Removed session 860.
+ноя 20 13:17:52 anrei-VirtualBox sshd[57389]: Accepted password for test_user from 127.0.0.1 port 60988 ssh2
+ноя 20 13:17:52 anrei-VirtualBox sshd[57389]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:52 anrei-VirtualBox systemd-logind[695]: New session 861 of user test_user.
+ноя 20 13:17:52 anrei-VirtualBox systemd[1]: Started Session 861 of user test_user.
+ноя 20 13:17:52 anrei-VirtualBox sshd[57389]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:52 anrei-VirtualBox systemd-logind[695]: Session 861 logged out. Waiting for processes to exit.
+ноя 20 13:17:52 anrei-VirtualBox systemd[1]: session-861.scope: Succeeded.
+ноя 20 13:17:52 anrei-VirtualBox systemd-logind[695]: Removed session 861.
+ноя 20 13:17:52 anrei-VirtualBox sshd[57449]: Accepted password for test_user from 127.0.0.1 port 60990 ssh2
+ноя 20 13:17:52 anrei-VirtualBox sshd[57449]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:52 anrei-VirtualBox systemd-logind[695]: New session 862 of user test_user.
+ноя 20 13:17:52 anrei-VirtualBox systemd[1]: Started Session 862 of user test_user.
+ноя 20 13:17:52 anrei-VirtualBox sshd[57449]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:52 anrei-VirtualBox systemd[1]: session-862.scope: Succeeded.
+ноя 20 13:17:52 anrei-VirtualBox systemd-logind[695]: Session 862 logged out. Waiting for processes to exit.
+ноя 20 13:17:52 anrei-VirtualBox systemd-logind[695]: Removed session 862.
+ноя 20 13:17:53 anrei-VirtualBox sshd[57509]: Accepted password for test_user from 127.0.0.1 port 60998 ssh2
+ноя 20 13:17:53 anrei-VirtualBox sshd[57509]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:53 anrei-VirtualBox systemd[1]: Started Session 863 of user test_user.
+ноя 20 13:17:53 anrei-VirtualBox systemd-logind[695]: New session 863 of user test_user.
+ноя 20 13:17:53 anrei-VirtualBox sudo[57569]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:17:52
+ноя 20 13:17:53 anrei-VirtualBox sudo[57569]: pam_unix(sudo:session): session opened for user root by (uid=0)
+[sudo] пароль для test_user: Время: 2023-11-20 13:17:53, кол-во файлов из конфига: 7, размер файла из конфига 1M, лог журнала: -- Logs begin at Fri 2023-08-25 16:19:02 +04, end at Mon 2023-11-20 13:17:53 +04. --
+ноя 20 13:17:53 anrei-VirtualBox sshd[57509]: Accepted password for test_user from 127.0.0.1 port 60998 ssh2
+ноя 20 13:17:53 anrei-VirtualBox sshd[57509]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:53 anrei-VirtualBox systemd[1]: Started Session 863 of user test_user.
+ноя 20 13:17:53 anrei-VirtualBox systemd-logind[695]: New session 863 of user test_user.
+ноя 20 13:17:53 anrei-VirtualBox sudo[57569]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:17:52
+ноя 20 13:17:53 anrei-VirtualBox sudo[57569]: pam_unix(sudo:session): session opened for user root by (uid=0)
+ноя 20 13:17:53 anrei-VirtualBox sudo[57569]: pam_unix(sudo:session): session closed for user root
+ноя 20 13:17:53 anrei-VirtualBox sshd[57571]: Accepted password for test_user from 127.0.0.1 port 32776 ssh2
+ноя 20 13:17:53 anrei-VirtualBox sshd[57571]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:53 anrei-VirtualBox systemd[1]: Started Session 864 of user test_user.
+ноя 20 13:17:53 anrei-VirtualBox systemd-logind[695]: New session 864 of user test_user.
+ноя 20 13:17:53 anrei-VirtualBox sshd[57509]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:53 anrei-VirtualBox systemd[1]: session-863.scope: Succeeded.
+ноя 20 13:17:53 anrei-VirtualBox systemd-logind[695]: Session 863 logged out. Waiting for processes to exit.
+ноя 20 13:17:53 anrei-VirtualBox systemd-logind[695]: Removed session 863.
+ноя 20 13:17:53 anrei-VirtualBox sshd[57632]: Accepted password for test_user from 127.0.0.1 port 32792 ssh2
+ноя 20 13:17:53 anrei-VirtualBox sshd[57632]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:53 anrei-VirtualBox systemd[1]: Started Session 865 of user test_user.
+ноя 20 13:17:53 anrei-VirtualBox systemd-logind[695]: New session 865 of user test_user.
+ноя 20 13:17:53 anrei-VirtualBox sshd[57571]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:53 anrei-VirtualBox systemd[1]: session-864.scope: Succeeded.
+ноя 20 13:17:53 anrei-VirtualBox systemd-logind[695]: Session 864 logged out. Waiting for processes to exit.
+ноя 20 13:17:53 anrei-VirtualBox systemd-logind[695]: Removed session 864.
+ноя 20 13:17:53 anrei-VirtualBox sshd[57632]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:53 anrei-VirtualBox systemd-logind[695]: Session 865 logged out. Waiting for processes to exit.
+ноя 20 13:17:53 anrei-VirtualBox systemd[1]: session-865.scope: Succeeded.
+ноя 20 13:17:53 anrei-VirtualBox systemd-logind[695]: Removed session 865.
+ноя 20 13:17:53 anrei-VirtualBox sshd[57692]: Accepted password for test_user from 127.0.0.1 port 32796 ssh2
+ноя 20 13:17:53 anrei-VirtualBox sshd[57692]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:53 anrei-VirtualBox systemd[1]: Started Session 866 of user test_user.
+ноя 20 13:17:53 anrei-VirtualBox systemd-logind[695]: New session 866 of user test_user.
+ноя 20 13:17:53 anrei-VirtualBox sudo[57751]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:17:53
+ноя 20 13:17:53 anrei-VirtualBox sudo[57751]: pam_unix(sudo:session): session opened for user root by (uid=0)
+[sudo] пароль для test_user: Время: 2023-11-20 13:17:54, кол-во файлов из конфига: 7, размер файла из конфига 1M, лог журнала: -- Logs begin at Fri 2023-08-25 16:19:02 +04, end at Mon 2023-11-20 13:17:54 +04. --
+ноя 20 13:17:54 anrei-VirtualBox sudo[57751]: pam_unix(sudo:session): session closed for user root
+ноя 20 13:17:54 anrei-VirtualBox sshd[57692]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:54 anrei-VirtualBox systemd[1]: session-866.scope: Succeeded.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: Session 866 logged out. Waiting for processes to exit.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: Removed session 866.
+ноя 20 13:17:54 anrei-VirtualBox sshd[57754]: Accepted password for test_user from 127.0.0.1 port 32808 ssh2
+ноя 20 13:17:54 anrei-VirtualBox sshd[57754]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:54 anrei-VirtualBox systemd[1]: Started Session 867 of user test_user.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: New session 867 of user test_user.
+ноя 20 13:17:54 anrei-VirtualBox sshd[57754]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:54 anrei-VirtualBox systemd[1]: session-867.scope: Succeeded.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: Session 867 logged out. Waiting for processes to exit.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: Removed session 867.
+ноя 20 13:17:54 anrei-VirtualBox sshd[57814]: Accepted password for test_user from 127.0.0.1 port 32818 ssh2
+ноя 20 13:17:54 anrei-VirtualBox sshd[57814]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:54 anrei-VirtualBox systemd[1]: Started Session 868 of user test_user.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: New session 868 of user test_user.
+ноя 20 13:17:54 anrei-VirtualBox sudo[57873]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:17:54
+ноя 20 13:17:54 anrei-VirtualBox sudo[57873]: pam_unix(sudo:session): session opened for user root by (uid=0)
+[sudo] пароль для test_user: Время: 2023-11-20 13:17:54, кол-во файлов из конфига: 7, размер файла из конфига 1M, лог журнала: -- Logs begin at Fri 2023-08-25 16:19:02 +04, end at Mon 2023-11-20 13:17:55 +04. --
+ноя 20 13:17:54 anrei-VirtualBox sudo[57751]: pam_unix(sudo:session): session closed for user root
+ноя 20 13:17:54 anrei-VirtualBox sshd[57692]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:54 anrei-VirtualBox systemd[1]: session-866.scope: Succeeded.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: Session 866 logged out. Waiting for processes to exit.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: Removed session 866.
+ноя 20 13:17:54 anrei-VirtualBox sshd[57754]: Accepted password for test_user from 127.0.0.1 port 32808 ssh2
+ноя 20 13:17:54 anrei-VirtualBox sshd[57754]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:54 anrei-VirtualBox systemd[1]: Started Session 867 of user test_user.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: New session 867 of user test_user.
+ноя 20 13:17:54 anrei-VirtualBox sshd[57754]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:54 anrei-VirtualBox systemd[1]: session-867.scope: Succeeded.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: Session 867 logged out. Waiting for processes to exit.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: Removed session 867.
+ноя 20 13:17:54 anrei-VirtualBox sshd[57814]: Accepted password for test_user from 127.0.0.1 port 32818 ssh2
+ноя 20 13:17:54 anrei-VirtualBox sshd[57814]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:54 anrei-VirtualBox systemd[1]: Started Session 868 of user test_user.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: New session 868 of user test_user.
+ноя 20 13:17:54 anrei-VirtualBox sudo[57873]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:17:54
+ноя 20 13:17:54 anrei-VirtualBox sudo[57873]: pam_unix(sudo:session): session opened for user root by (uid=0)
+ноя 20 13:17:54 anrei-VirtualBox sudo[57873]: pam_unix(sudo:session): session closed for user root
+ноя 20 13:17:54 anrei-VirtualBox sshd[57876]: Accepted password for test_user from 127.0.0.1 port 32826 ssh2
+ноя 20 13:17:54 anrei-VirtualBox sshd[57876]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:54 anrei-VirtualBox systemd[1]: Started Session 869 of user test_user.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: New session 869 of user test_user.
+ноя 20 13:17:54 anrei-VirtualBox sshd[57814]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:54 anrei-VirtualBox systemd[1]: session-868.scope: Succeeded.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: Session 868 logged out. Waiting for processes to exit.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: Removed session 868.
+ноя 20 13:17:54 anrei-VirtualBox sshd[57876]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:54 anrei-VirtualBox systemd[1]: session-869.scope: Succeeded.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: Session 869 logged out. Waiting for processes to exit.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: Removed session 869.
+ноя 20 13:17:54 anrei-VirtualBox sshd[57935]: Accepted password for test_user from 127.0.0.1 port 32838 ssh2
+ноя 20 13:17:54 anrei-VirtualBox sshd[57935]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:54 anrei-VirtualBox systemd[1]: Started Session 870 of user test_user.
+ноя 20 13:17:54 anrei-VirtualBox systemd-logind[695]: New session 870 of user test_user.
+ноя 20 13:17:55 anrei-VirtualBox sudo[57995]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:17:54
+ноя 20 13:17:55 anrei-VirtualBox sudo[57995]: pam_unix(sudo:session): session opened for user root by (uid=0)
+[sudo] пароль для test_user: Время: 2023-11-20 13:17:55, кол-во файлов из конфига: 7, размер файла из конфига 1M, лог журнала: -- Logs begin at Fri 2023-08-25 16:19:02 +04, end at Mon 2023-11-20 13:17:55 +04. --
+ноя 20 13:17:55 anrei-VirtualBox sudo[57995]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:17:54
+ноя 20 13:17:55 anrei-VirtualBox sudo[57995]: pam_unix(sudo:session): session opened for user root by (uid=0)
+ноя 20 13:17:55 anrei-VirtualBox sudo[57995]: pam_unix(sudo:session): session closed for user root
+ноя 20 13:17:55 anrei-VirtualBox sshd[57935]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:55 anrei-VirtualBox systemd-logind[695]: Session 870 logged out. Waiting for processes to exit.
+ноя 20 13:17:55 anrei-VirtualBox systemd[1]: session-870.scope: Succeeded.
+ноя 20 13:17:55 anrei-VirtualBox systemd-logind[695]: Removed session 870.
+ноя 20 13:17:55 anrei-VirtualBox sshd[57997]: Accepted password for test_user from 127.0.0.1 port 32852 ssh2
+ноя 20 13:17:55 anrei-VirtualBox sshd[57997]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:55 anrei-VirtualBox systemd[1]: Started Session 871 of user test_user.
+ноя 20 13:17:55 anrei-VirtualBox systemd-logind[695]: New session 871 of user test_user.
+ноя 20 13:17:55 anrei-VirtualBox sshd[57997]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:55 anrei-VirtualBox systemd-logind[695]: Session 871 logged out. Waiting for processes to exit.
+ноя 20 13:17:55 anrei-VirtualBox systemd[1]: session-871.scope: Succeeded.
+ноя 20 13:17:55 anrei-VirtualBox systemd-logind[695]: Removed session 871.
+ноя 20 13:17:55 anrei-VirtualBox sshd[58057]: Accepted password for test_user from 127.0.0.1 port 32860 ssh2
+ноя 20 13:17:55 anrei-VirtualBox sshd[58057]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:55 anrei-VirtualBox systemd-logind[695]: New session 872 of user test_user.
+ноя 20 13:17:55 anrei-VirtualBox systemd[1]: Started Session 872 of user test_user.
+ноя 20 13:17:55 anrei-VirtualBox sshd[58057]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:55 anrei-VirtualBox systemd-logind[695]: Session 872 logged out. Waiting for processes to exit.
+ноя 20 13:17:55 anrei-VirtualBox systemd[1]: session-872.scope: Succeeded.
+ноя 20 13:17:55 anrei-VirtualBox systemd-logind[695]: Removed session 872.
+ноя 20 13:17:55 anrei-VirtualBox sshd[58117]: Accepted password for test_user from 127.0.0.1 port 32864 ssh2
+ноя 20 13:17:55 anrei-VirtualBox sshd[58117]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:55 anrei-VirtualBox systemd[1]: Started Session 873 of user test_user.
+ноя 20 13:17:55 anrei-VirtualBox systemd-logind[695]: New session 873 of user test_user.
+ноя 20 13:17:55 anrei-VirtualBox sudo[58178]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:17:55
+ноя 20 13:17:55 anrei-VirtualBox sudo[58178]: pam_unix(sudo:session): session opened for user root by (uid=0)
+[sudo] пароль для test_user: Время: 2023-11-20 13:17:56, кол-во файлов из конфига: 7, размер файла из конфига 1M, лог журнала: -- Logs begin at Fri 2023-08-25 16:19:02 +04, end at Mon 2023-11-20 13:17:56 +04. --
+ноя 20 13:17:56 anrei-VirtualBox sshd[58180]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:56 anrei-VirtualBox systemd[1]: session-874.scope: Succeeded.
+ноя 20 13:17:56 anrei-VirtualBox systemd-logind[695]: Session 874 logged out. Waiting for processes to exit.
+ноя 20 13:17:56 anrei-VirtualBox systemd-logind[695]: Removed session 874.
+ноя 20 13:17:56 anrei-VirtualBox sshd[58240]: Accepted password for test_user from 127.0.0.1 port 32884 ssh2
+ноя 20 13:17:56 anrei-VirtualBox sshd[58240]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:56 anrei-VirtualBox systemd[1]: Started Session 875 of user test_user.
+ноя 20 13:17:56 anrei-VirtualBox systemd-logind[695]: New session 875 of user test_user.
+ноя 20 13:17:56 anrei-VirtualBox sshd[58240]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:56 anrei-VirtualBox systemd-logind[695]: Session 875 logged out. Waiting for processes to exit.
+ноя 20 13:17:56 anrei-VirtualBox systemd[1]: session-875.scope: Succeeded.
+ноя 20 13:17:56 anrei-VirtualBox systemd-logind[695]: Removed session 875.
+ноя 20 13:17:56 anrei-VirtualBox sshd[58300]: Accepted password for test_user from 127.0.0.1 port 32898 ssh2
+ноя 20 13:17:56 anrei-VirtualBox sshd[58300]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:56 anrei-VirtualBox systemd[1]: Started Session 876 of user test_user.
+ноя 20 13:17:56 anrei-VirtualBox systemd-logind[695]: New session 876 of user test_user.
+ноя 20 13:17:56 anrei-VirtualBox sshd[58300]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:17:56 anrei-VirtualBox systemd-logind[695]: Session 876 logged out. Waiting for processes to exit.
+ноя 20 13:17:56 anrei-VirtualBox systemd[1]: session-876.scope: Succeeded.
+ноя 20 13:17:56 anrei-VirtualBox systemd-logind[695]: Removed session 876.
+ноя 20 13:17:56 anrei-VirtualBox sshd[58361]: Accepted password for test_user from 127.0.0.1 port 32914 ssh2
+ноя 20 13:17:56 anrei-VirtualBox sshd[58361]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:17:56 anrei-VirtualBox systemd[1]: Started Session 877 of user test_user.
+ноя 20 13:17:56 anrei-VirtualBox systemd-logind[695]: New session 877 of user test_user.
+ноя 20 13:17:56 anrei-VirtualBox sudo[58420]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:17:56
+ноя 20 13:17:56 anrei-VirtualBox sudo[58420]: pam_unix(sudo:session): session opened for user root by (uid=0)
+[sudo] пароль для test_user: Время: 2023-11-20 13:18:12, кол-во файлов из конфига: 7, размер файла из конфига 1M, лог журнала: -- Logs begin at Fri 2023-08-25 16:19:02 +04, end at Mon 2023-11-20 13:18:13 +04. --
+ноя 20 13:18:12 anrei-VirtualBox sshd[59037]: Accepted password for test_user from 127.0.0.1 port 33678 ssh2
+ноя 20 13:18:12 anrei-VirtualBox sshd[59037]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:18:12 anrei-VirtualBox systemd-logind[695]: New session 888 of user test_user.
+ноя 20 13:18:12 anrei-VirtualBox systemd[1]: Started Session 888 of user test_user.
+ноя 20 13:18:12 anrei-VirtualBox sshd[58977]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:18:12 anrei-VirtualBox systemd[1]: session-887.scope: Succeeded.
+ноя 20 13:18:12 anrei-VirtualBox systemd-logind[695]: Session 887 logged out. Waiting for processes to exit.
+ноя 20 13:18:12 anrei-VirtualBox systemd-logind[695]: Removed session 887.
+ноя 20 13:18:12 anrei-VirtualBox sshd[59097]: Accepted password for test_user from 127.0.0.1 port 33686 ssh2
+ноя 20 13:18:12 anrei-VirtualBox sshd[59097]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:18:12 anrei-VirtualBox systemd[1]: Started Session 889 of user test_user.
+ноя 20 13:18:12 anrei-VirtualBox systemd-logind[695]: New session 889 of user test_user.
+ноя 20 13:18:12 anrei-VirtualBox sshd[59037]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:18:12 anrei-VirtualBox systemd[1]: session-888.scope: Succeeded.
+ноя 20 13:18:12 anrei-VirtualBox systemd-logind[695]: Session 888 logged out. Waiting for processes to exit.
+ноя 20 13:18:12 anrei-VirtualBox systemd-logind[695]: Removed session 888.
+ноя 20 13:18:12 anrei-VirtualBox sshd[59157]: Accepted password for test_user from 127.0.0.1 port 33692 ssh2
+ноя 20 13:18:12 anrei-VirtualBox sshd[59157]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:18:12 anrei-VirtualBox systemd[1]: Started Session 890 of user test_user.
+ноя 20 13:18:12 anrei-VirtualBox systemd-logind[695]: New session 890 of user test_user.
+ноя 20 13:18:12 anrei-VirtualBox sshd[59097]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:18:12 anrei-VirtualBox systemd[1]: session-889.scope: Succeeded.
+ноя 20 13:18:12 anrei-VirtualBox systemd-logind[695]: Session 889 logged out. Waiting for processes to exit.
+ноя 20 13:18:12 anrei-VirtualBox systemd-logind[695]: Removed session 889.
+ноя 20 13:18:12 anrei-VirtualBox sshd[59217]: Accepted password for test_user from 127.0.0.1 port 33706 ssh2
+ноя 20 13:18:12 anrei-VirtualBox sshd[59217]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:18:12 anrei-VirtualBox systemd[1]: Started Session 891 of user test_user.
+ноя 20 13:18:12 anrei-VirtualBox systemd-logind[695]: New session 891 of user test_user.
+ноя 20 13:18:12 anrei-VirtualBox sshd[59157]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:18:12 anrei-VirtualBox systemd[1]: session-890.scope: Succeeded.
+ноя 20 13:18:12 anrei-VirtualBox systemd-logind[695]: Session 890 logged out. Waiting for processes to exit.
+ноя 20 13:18:12 anrei-VirtualBox systemd-logind[695]: Removed session 890.
+ноя 20 13:18:13 anrei-VirtualBox sudo[59276]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:18:12
+ноя 20 13:18:13 anrei-VirtualBox sudo[59276]: pam_unix(sudo:session): session opened for user root by (uid=0)
+[sudo] пароль для test_user: Время: 2023-11-20 13:18:13, кол-во файлов из конфига: 7, размер файла из конфига 1M, лог журнала: -- Logs begin at Fri 2023-08-25 16:19:02 +04, end at Mon 2023-11-20 13:18:13 +04. --
+ноя 20 13:18:13 anrei-VirtualBox sudo[59276]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:18:12
+ноя 20 13:18:13 anrei-VirtualBox sudo[59276]: pam_unix(sudo:session): session opened for user root by (uid=0)
+ноя 20 13:18:13 anrei-VirtualBox sudo[59276]: pam_unix(sudo:session): session closed for user root
+ноя 20 13:18:13 anrei-VirtualBox sshd[59217]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:18:13 anrei-VirtualBox systemd[1]: session-891.scope: Succeeded.
+ноя 20 13:18:13 anrei-VirtualBox systemd-logind[695]: Session 891 logged out. Waiting for processes to exit.
+ноя 20 13:18:13 anrei-VirtualBox systemd-logind[695]: Removed session 891.
+ноя 20 13:18:13 anrei-VirtualBox sshd[59278]: Accepted password for test_user from 127.0.0.1 port 33716 ssh2
+ноя 20 13:18:13 anrei-VirtualBox sshd[59278]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:18:13 anrei-VirtualBox systemd[1]: Started Session 892 of user test_user.
+ноя 20 13:18:13 anrei-VirtualBox systemd-logind[695]: New session 892 of user test_user.
+ноя 20 13:18:13 anrei-VirtualBox sshd[59278]: pam_unix(sshd:session): session closed for user test_user
+ноя 20 13:18:13 anrei-VirtualBox systemd-logind[695]: Session 892 logged out. Waiting for processes to exit.
+ноя 20 13:18:13 anrei-VirtualBox systemd[1]: session-892.scope: Succeeded.
+ноя 20 13:18:13 anrei-VirtualBox systemd-logind[695]: Removed session 892.
+ноя 20 13:18:13 anrei-VirtualBox sshd[59338]: Accepted password for test_user from 127.0.0.1 port 33720 ssh2
+ноя 20 13:18:13 anrei-VirtualBox sshd[59338]: pam_unix(sshd:session): session opened for user test_user by (uid=0)
+ноя 20 13:18:13 anrei-VirtualBox systemd[1]: Started Session 893 of user test_user.
+ноя 20 13:18:13 anrei-VirtualBox systemd-logind[695]: New session 893 of user test_user.
+ноя 20 13:18:13 anrei-VirtualBox sudo[59398]: test_user : TTY=unknown ; PWD=/home/test_user ; USER=root ; COMMAND=/usr/bin/journalctl --since 2023-11-20 13:18:13
+ноя 20 13:18:13 anrei-VirtualBox sudo[59398]: pam_unix(sudo:session): session opened for user root by (uid=0)
+[sudo] пароль для test_user: 

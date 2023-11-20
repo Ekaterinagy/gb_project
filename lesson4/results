@@ -1,0 +1,47 @@
+/home/anrei/gb_lessons/linux_on_pythin/gb_project/venv/bin/python /snap/pycharm-community/355/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py --path /home/anrei/gb_lessons/linux_on_pythin/gb_project/lesson4/test_positive.py
+Testing started at 13:17 ...
+Launching pytest with arguments /home/anrei/gb_lessons/linux_on_pythin/gb_project/lesson4/test_positive.py --no-header --no-summary -q in /home/anrei/gb_lessons/linux_on_pythin/gb_project/lesson4
+
+============================= test session starts ==============================
+collecting ... collected 7 items
+
+test_positive.py::TestPositive::test_step1
+test_positive.py::TestPositive::test_step2
+test_positive.py::TestPositive::test_step3
+test_positive.py::TestPositive::test_step4
+test_positive.py::TestPositive::test_step5
+test_positive.py::TestPositive::test_step6
+test_positive.py::TestPositive::test_step7
+
+========================= 7 passed, 1 warning in 8.60s =========================
+clear test data
+step 1.0 ('/home/test_user/.local/share/Trash/files/p7zip-full.deb\n', 0)
+file 'p7zip-full.deb' exist, upload not required, step 1 will skipped
+pkg already installed, step1_1 and step2_2 skipped
+prepare directories
+PASSED                        [ 14%]PASSED                        [ 28%]PASSED                        [ 42%]PASSED                        [ 57%]PASSED                        [ 71%]PASSED                        [ 85%]make_files ['O1VSG', 'HM36L', 'OH1AJ', 'LB7UX', '9IMQ8', 'EYKGQ', 'ABGD0']
+PASSED                        [100%]result1 DC4593FA       7344640  arx2.tar
+
+result2 DC4593FA
+result3 dc4593fa
+
+Process finished with exit code 0
+
+/home/anrei/gb_lessons/linux_on_pythin/gb_project/venv/bin/python /snap/pycharm-community/355/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py --path /home/anrei/gb_lessons/linux_on_pythin/gb_project/lesson4/test_negative.py
+Testing started at 13:18 ...
+Launching pytest with arguments /home/anrei/gb_lessons/linux_on_pythin/gb_project/lesson4/test_negative.py --no-header --no-summary -q in /home/anrei/gb_lessons/linux_on_pythin/gb_project/lesson4
+
+============================= test session starts ==============================
+collecting ... collected 2 items
+
+test_negative.py::TestNegative::test_step1
+test_negative.py::TestNegative::test_step2
+
+========================= 2 passed, 1 warning in 3.72s =========================
+clear test data
+step 1.0 ('/home/test_user/.local/share/Trash/files/p7zip-full.deb\n', 0)
+file 'p7zip-full.deb' exist, upload not required, step 1 will skipped
+pkg already installed, step1_1 and step2_2 skipped
+prepare directories
+PASSED                        [ 50%]PASSED                        [100%]
+Process finished with exit code 0
