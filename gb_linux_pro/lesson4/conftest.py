@@ -4,9 +4,9 @@ from datetime import datetime
 
 import pytest
 
-from lesson4.ssh_checkers import ssh_getout, ssh_checkout
-from lesson4.ssh_files_helper import upload_files
-from lesson4.test_data_conf import TestDataConfigure
+from gb_linux_pro.lesson4.ssh_checkers import ssh_getout, ssh_checkout
+from gb_linux_pro.lesson4.ssh_files_helper import upload_files
+from gb_linux_pro.lesson4.test_data_conf import TestDataConfigure
 
 conf = TestDataConfigure()
 

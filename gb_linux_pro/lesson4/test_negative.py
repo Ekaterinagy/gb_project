@@ -1,5 +1,5 @@
-from lesson4.ssh_checkers import ssh_checkout_negative
-from lesson4.test_data_conf import TestDataConfigure
+from gb_linux_pro.lesson4.ssh_checkers import ssh_checkout_negative
+from gb_linux_pro.lesson4.test_data_conf import TestDataConfigure
 
 conf = TestDataConfigure()
 

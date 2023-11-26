@@ -1,6 +1,6 @@
 import paramiko
 
-from lesson4.test_data_conf import TestDataConfigure
+from gb_linux_pro.lesson4.test_data_conf import TestDataConfigure
 
 
 def upload_files(host, user, passwd, local_path, remote_path, port=22):
