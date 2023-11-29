@@ -2,7 +2,7 @@ import pytest
 import requests
 import yaml
 
-with open("/Users/mishinaekaterin/PycharmProjects/pythonProject4/dz1/config.yaml") as f:
+with open("config.yaml") as f:
     data = yaml.safe_load(f)
 
 
