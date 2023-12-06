@@ -41,7 +41,6 @@ def test_step3(site, log_xpath, pass_xpath, btn_xpath, btn_create_post,
 
 ```commandline
 Testing started at 15:41 ...
-Launching pytest with arguments C:\Users\Andrey\PycharmProjects\gb_project\gb_web_test_pro\lesson2\test_1.py --no-header --no-summary -q in C:\Users\Andrey\PycharmProjects\gb_project\gb_web_test_pro\lesson2
 
 ============================= test session starts =============================
 collecting ... collected 3 items
