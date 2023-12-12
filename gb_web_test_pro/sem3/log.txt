@@ -1,0 +1,28 @@
+2023-12-12 11:15:17 INFO ====== WebDriver manager ======
+2023-12-12 11:15:17 INFO Get LATEST chromedriver version for google-chrome
+2023-12-12 11:15:17 INFO Get LATEST chromedriver version for google-chrome
+2023-12-12 11:15:17 INFO Driver [/Users/mishinaekaterin/.wdm/drivers/chromedriver/mac64/120.0.6099.71/chromedriver-mac-x64/chromedriver] found in cache
+2023-12-12 11:15:25 INFO Test 1 start
+2023-12-12 11:15:28 INFO send test to element //*[@id="login"]/div[1]/label/input
+2023-12-12 11:15:28 INFO send test to element //*[@id="login"]/div[2]/label/input
+2023-12-12 11:15:29 INFO Click logging button
+2023-12-12 11:15:30 INFO We find text 401 in error field //*[@id="app"]/main/div/div/div[2]/h2
+2023-12-12 11:15:30 INFO Test 1 start
+2023-12-12 11:15:31 INFO send IvanovIvan234 to element //*[@id="login"]/div[1]/label/input
+2023-12-12 11:15:31 INFO send 2157048adf to element //*[@id="login"]/div[2]/label/input
+2023-12-12 11:15:31 INFO Click logging button
+2023-12-12 11:15:34 INFO We find text Blog in login page //*[@id="app"]/main/div/div/div[2]/h2
+2023-12-12 11:15:34 INFO Test 3 start
+2023-12-12 11:15:34 INFO Click new post button
+2023-12-12 11:15:34 INFO Send Котики to element //*[@id="create-item"]/div/div/div[1]/div/label/input
+2023-12-12 11:15:35 INFO Send Самые милые существа to element //*[@id="create-item"]/div/div/div[2]/div/label/span/textarea
+2023-12-12 11:15:36 INFO Send c9x2frdxxu0o2mjyht7nopv99ag9w2o07nrjyqrvvmews339l6z25cpseh6lta3qd0i98olxj2tg2ltt4kpc9amkml2c5kcvublx516bei4z35s04920wfgvxotiknn24w0afh81mcfwopvfr5o60p5sq17ii3fweedfna0kb9v0fzft8t3mknla6ktuxk2cowhk7k0qo7rcin3tpz6xt9j5ne0fnzivb1oex9cr4l67uthrmldup1ww5oad6a3uf0beuphccyjynetqgycnunpxn3mry04o1tdh4eh0a5km to element //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
+2023-12-12 11:15:37 INFO Click save new post button
+2023-12-12 11:15:46 INFO We find text Котики in login page //*[@id="app"]/main/div/div[1]/h1
+2023-12-12 11:15:46 INFO Test 4 start
+2023-12-12 11:15:46 INFO Click Contact button
+2023-12-12 11:15:46 INFO Send C5PRVB19SL to element //*[@id="contact"]/div[1]/label/input
+2023-12-12 11:15:47 INFO Send user@user.ru to element //*[@id="contact"]/div[2]/label/input
+2023-12-12 11:15:47 INFO Send dxgp03i06phenp0nb21oteypqew6he5hjhmcrnz0kki0t1jicjc9blg8r3060ni92f1x34xadb1wm9tus2ja5lkljuk30qw62fwmitxuns39lrewizqg12a3acbu9x12ic9os5nx7h46lwu31ybq5m4s61uehjckq6rr4wust7x5354av453gzyf1ln1xfeswn9359ro to element //*[@id="contact"]/div[3]/label/span/textarea
+2023-12-12 11:15:48 INFO Click Send button
+2023-12-12 11:15:50 INFO Switch alert
