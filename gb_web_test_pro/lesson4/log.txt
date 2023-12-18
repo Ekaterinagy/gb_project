@@ -1,0 +1,15 @@
+11:58:18 INFO Test_api_create_post starting
+11:58:19 INFO Test completed with result: C7EID3E in ['C7EID3E', 'YMRY7OE', 'V2DLFX5', '0KL1GCE']
+11:58:19 INFO Test_api_find_post starting
+11:58:25 INFO Test completed with result: ['Новогодний светильник', 'Заголовок новый', 'Заголовок новый', 'Заголовок новый', 'Заголовок новый', 'fff', 'Котик', 'Заголовок новый', 'Заголовок новый', 'Котик', 'Котик', 'Котик', 'Котик', 'Заголовок новый', 'Заголовок новый', 'Заголовок новый', 'Заголовок1', 'This is a new post for the Selenium project', 'О котиках', 'I want drink!', 'Sea', 'Sea', 'О котиках', 'О котиках', 'Sea', 'О котиках', 'О котиках', 'О котиках', 'I want drink!', 'О котиках', 'О котиках', 'I want drink!', 'Sea', 'Hello', 'Hello', 'Hello'], RQ49Z not in ['Новогодний светильник', 'Заголовок новый', 'Заголовок новый', 'Заголовок новый', 'Заголовок новый', 'fff', 'Котик', 'Заголовок новый', 'Заголовок новый', 'Котик', 'Котик', 'Котик', 'Котик', 'Заголовок новый', 'Заголовок новый', 'Заголовок новый', 'Заголовок1', 'This is a new post for the Selenium project', 'О котиках', 'I want drink!', 'Sea', 'Sea', 'О котиках', 'О котиках', 'Sea', 'О котиках', 'О котиках', 'О котиках', 'I want drink!', 'О котиках', 'О котиках', 'I want drink!', 'Sea', 'Hello', 'Hello', 'Hello']
+11:58:25 INFO ====== WebDriver manager ======
+11:58:25 INFO Get LATEST chromedriver version for google-chrome
+11:58:25 INFO Get LATEST chromedriver version for google-chrome
+11:58:25 INFO Driver [/Users/mishinaekaterin/.wdm/drivers/chromedriver/mac64/120.0.6099.71/chromedriver-mac-x64/chromedriver] found in cache
+11:58:37 INFO Test_ui_auth_wrong starting
+11:58:42 INFO Test_ui_auth_successfully starting
+11:58:45 INFO Test_ui_create_post starting
+11:58:49 INFO Test_ui_contact_us starting
+11:58:50 INFO We find Form successfully submitted in alert when click to ('xpath', '//*[@id="contact"]/div[4]/button')
+11:58:50 INFO Test_iu_log_out starting
+11:58:51 INFO Logout completed
